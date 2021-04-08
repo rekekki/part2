@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom'
 import App from './App.js'
+import axios from 'axios'
 
 const notes = [
   {
@@ -27,7 +28,12 @@ const notes = [
 const result = notes.map(note => note.id)
 console.log(result)
 
-ReactDOM.render(
-  <App notes={notes} />,
-  document.getElementById('root')
-)
+//This is how to access data on server. Get and then are methods.
+
+axios.get('http://localhost:3001/notes').then(response => {
+  const notes = response.data
+  ReactDOM.render(
+    <App notes={notes} />,
+    document.getElementById('root')
+  )
+})
