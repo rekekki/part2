@@ -3,19 +3,32 @@
       {
         "id": 1,
         "content": "HTML is easy",
+<<<<<<< HEAD
         "date": "2019-05-30T17:30:31.098Z",
+=======
+        "date": "2020-01-10T17:30:31.098Z",
+>>>>>>> 29b5305d04c9e3857718caa5bd0b57c08db73bb2
         "important": true
       },
       {
         "id": 2,
+<<<<<<< HEAD
         "content": "Browser can execute only JavaScript",
         "date": "2019-05-30T18:39:34.091Z",
+=======
+        "content": "Browser can execute only Javascript",
+        "date": "2020-01-10T18:39:34.091Z",
+>>>>>>> 29b5305d04c9e3857718caa5bd0b57c08db73bb2
         "important": false
       },
       {
         "id": 3,
         "content": "GET and POST are the most important methods of HTTP protocol",
+<<<<<<< HEAD
         "date": "2019-05-30T19:20:14.298Z",
+=======
+        "date": "2020-01-10T19:20:14.298Z",
+>>>>>>> 29b5305d04c9e3857718caa5bd0b57c08db73bb2
         "important": true
       }
     ]
